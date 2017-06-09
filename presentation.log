@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.8)  8 JUN 2017 11:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.8)  9 JUN 2017 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1133,7 +1133,10 @@ LaTeX Font Info:    Redeclaring math symbol \varphi on input line 64.
 LaTeX Font Info:    Redeclaring math symbol \varrho on input line 65.
 LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 66.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.
+code.tex
+File: tikzlibrarycalc.code.tex 2009/09/04 v2.10 (rcs-revision 1.6)
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks41
 \inpenc@posthook=\toks42
@@ -1163,27 +1166,27 @@ LaTeX Warning: Unused global option(s):
 (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 84.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 81.
-LaTeX Info: Redefining \microtypecontext on input line 81.
+(Font)              scaled to size 10.40245pt on input line 84.
+LaTeX Info: Redefining \microtypecontext on input line 84.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1273,215 +1276,199 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 81.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 81.
+(Font)              scaled to size 10.40245pt on input line 84.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 81.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 81.
-Package tocstyle Info: prepare \l@part for redefinition on input line 81.
-Package tocstyle Info: prepare \l@section for redefinition on input line 81.
-Package tocstyle Info: prepare \l@subsection for redefinition on input line 81.
+(Font)              scaled to size 11.39996pt on input line 84.
+Package tocstyle Info: prepare \l@part for redefinition on input line 84.
+Package tocstyle Info: prepare \l@section for redefinition on input line 84.
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 84.
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 81.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 84.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 81.
+(Font)              scaled to size 10.40245pt on input line 84.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `phv' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 81.
+(Font)              scaled to size 7.59998pt on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 81.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 81.
+(Font)              scaled to size 5.69998pt on input line 84.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 84.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 81.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 84.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 81.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 84.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 81.
+(Font)              <10.95> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 81.
+(Font)              <8> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 81.
+(Font)              <6> on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 81.
+(Font)              scaled to size 10.40245pt on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 7.59998pt on input line 81.
+(Font)              scaled to size 7.59998pt on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 5.69998pt on input line 81.
+(Font)              scaled to size 5.69998pt on input line 84.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 81.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 81.
+(Font)              scaled to size 10.40245pt on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 81.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 7.59998pt on input line 81.
+(Font)              scaled to size 7.59998pt on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <6> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 81.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 5.69998pt on input line 81.
+(Font)              scaled to size 5.69998pt on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 81.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
-(Font)              scaled to size 10.40245pt on input line 81.
+(Font)              scaled to size 10.40245pt on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <8> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 81.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
-(Font)              scaled to size 7.59998pt on input line 81.
+(Font)              scaled to size 7.59998pt on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <6> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 81.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 84.
 LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
-(Font)              scaled to size 5.69998pt on input line 81.
+(Font)              scaled to size 5.69998pt on input line 84.
 Package tocstyle Info: prepare \l@subsubsection for redefinition on input line 
-81.
-Package tocstyle Info: prepare \l@table for redefinition on input line 81.
-Package tocstyle Info: prepare \l@figure for redefinition on input line 81.
+84.
+Package tocstyle Info: prepare \l@table for redefinition on input line 84.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 84.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box61
-Package scrbase Info: activating english \contentsname on input line 81.
+Package scrbase Info: activating english \contentsname on input line 84.
 
 <eth_logo_kurz_neg_13.pdf, id=20, 141.23163pt x 22.94704pt>
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
 
 <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 83.
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 86.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
  <title.jpg, id=21, 2070.73625pt x 1129.21875pt>
 File: title.jpg Graphic file (type jpg)
 
 <use title.jpg>
-Package pdftex.def Info: title.jpg used on input line 83.
+Package pdftex.def Info: title.jpg used on input line 86.
 (pdftex.def)             Requested size: 338.5878pt x 121.82307pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 83.
+(Font)              scaled to size 11.39996pt on input line 86.
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--91
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--91
+Underfull \hbox (badness 10000) in paragraph at lines 86--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--91
+Underfull \hbox (badness 10000) in paragraph at lines 86--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--94
 
  []
 
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
 <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 93.
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 96.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 3.79999pt on input line 93.
+(Font)              scaled to size 3.79999pt on input line 96.
 
 <asl_logo_right.pdf, id=23, 1365.1pt x 221.82875pt>
 File: asl_logo_right.pdf Graphic file (type pdf)
  <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 93.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 96.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
-LaTeX Font Info:    Calculating math sizes for size <4> on input line 93.
+LaTeX Font Info:    Calculating math sizes for size <4> on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 3.79999pt on input line 93.
+(Font)              scaled to size 3.79999pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 2.65997pt on input line 93.
+(Font)              scaled to size 2.65997pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 1.9pt on input line 93.
+(Font)              scaled to size 1.9pt on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4> on input line 93.
+(Font)              <4> on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <2.79999> on input line 93.
+(Font)              <2.79999> on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <2> on input line 93.
+(Font)              <2> on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 3.79999pt on input line 93.
+(Font)              scaled to size 3.79999pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 2.65997pt on input line 93.
+(Font)              scaled to size 2.65997pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 1.9pt on input line 93.
+(Font)              scaled to size 1.9pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 3.79999pt on input line 93.
+(Font)              scaled to size 3.79999pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <2.79999> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 2.65997pt on input line 93.
+(Font)              scaled to size 2.65997pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <2> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 1.9pt on input line 93.
+(Font)              scaled to size 1.9pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <4> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 93.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
-(Font)              scaled to size 3.79999pt on input line 93.
+(Font)              scaled to size 3.79999pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <2.79999> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 93.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
-(Font)              scaled to size 2.65997pt on input line 93.
+(Font)              scaled to size 2.65997pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <2> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 93.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
-(Font)              scaled to size 1.9pt on input line 93.
+(Font)              scaled to size 1.9pt on input line 96.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./title.jpg> <./eth_logo_k
 urz_neg_13.pdf> <./asl_logo_right.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 94.
-File: asl_logo_right.pdf Graphic file (type pdf)
-<use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 100.
-(pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
- [2]
-File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
- <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 102.
-(pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-
- []
-
+(Font)              scaled to size 13.67995pt on input line 97.
 File: asl_logo_right.pdf Graphic file (type pdf)
 <use asl_logo_right.pdf>
 Package pdftex.def Info: asl_logo_right.pdf used on input line 105.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
- [3
-
-]
+ [2]
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
  <use eth_logo_kurz_neg_13.pdf>
 Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 107.
@@ -1491,56 +1478,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
+(./TikZ_drawings/STS_and_LTS/STSandLTS.tikz
+Overfull \hbox (10.13567pt too wide) in paragraph at lines 40--41
+[][] 
+ []
+
+)
 File: asl_logo_right.pdf Graphic file (type pdf)
-<use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 111.
+ <use asl_logo_right.pdf>
+Package pdftex.def Info: asl_logo_right.pdf used on input line 113.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
- [4
+ [3
 
 ]
+File: asl_logo_right.pdf Graphic file (type pdf)
+ <use asl_logo_right.pdf>
+Package pdftex.def Info: asl_logo_right.pdf used on input line 113.
+(pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
+ [4]
+Overfull \vbox (73.58986pt too high) has occurred while \output is active []
+
+File: asl_logo_right.pdf Graphic file (type pdf)
+
+<use asl_logo_right.pdf>
+Package pdftex.def Info: asl_logo_right.pdf used on input line 113.
+(pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
+ [5]
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
  <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 113.
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 115.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 File: asl_logo_right.pdf Graphic file (type pdf)
 <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 117.
-(pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
- [5
-
-]
-File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
- <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 119.
-(pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
-
- []
-
-File: asl_logo_right.pdf Graphic file (type pdf)
-<use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 123.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 119.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
  [6
 
 ]
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
  <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 129.
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 121.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+File: asl_logo_right.pdf Graphic file (type pdf)
+<use asl_logo_right.pdf>
+Package pdftex.def Info: asl_logo_right.pdf used on input line 125.
+(pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
+ [7
+
+]
+File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
+ <use eth_logo_kurz_neg_13.pdf>
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 127.
+(pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+File: asl_logo_right.pdf Graphic file (type pdf)
+<use asl_logo_right.pdf>
+Package pdftex.def Info: asl_logo_right.pdf used on input line 131.
+(pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
+ [8
+
+]
+File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
+ <use eth_logo_kurz_neg_13.pdf>
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 137.
+(pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 Package tocbasic Info: character protrusion at toc deactivated on input line 13
-1.
+9.
 (./presentation.toc
 number indent by \l@... (toc, 1):  0.0pt
 text indent by \l@... (toc, 1):  15.60367pt
@@ -1558,104 +1580,104 @@ number indent calculated (toc, 2): 15.60367pt
 
 File: asl_logo_right.pdf Graphic file (type pdf)
  <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 133.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 141.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
- [7
+ [9
 
 ]
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
  <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 135.
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 143.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
 \g__file_internal_ior=\read2
 <<VPlayer.swf>><<LittleDog.mp4>>
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 146.
+(Font)              scaled to size 8.54997pt on input line 154.
 File: asl_logo_right.pdf Graphic file (type pdf)
  <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 148.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 156.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
- [8
+ [10
 
 ]
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
 
 <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 151.
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 159.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 152.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.54997pt on input line 152.
+(Font)              scaled to size 8.54997pt on input line 160.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 163.
+(Font)              scaled to size 8.54997pt on input line 171.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 163.
+(Font)              scaled to size 4.74998pt on input line 171.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 163.
+(Font)              <9> on input line 171.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 163.
+(Font)              <5> on input line 171.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 8.54997pt on input line 163.
+(Font)              scaled to size 8.54997pt on input line 171.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 4.74998pt on input line 163.
+(Font)              scaled to size 4.74998pt on input line 171.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 163.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 171.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 8.54997pt on input line 163.
+(Font)              scaled to size 8.54997pt on input line 171.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <5> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 163.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 171.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 4.74998pt on input line 163.
+(Font)              scaled to size 4.74998pt on input line 171.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 163.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 171.
 LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
-(Font)              scaled to size 8.54997pt on input line 163.
+(Font)              scaled to size 8.54997pt on input line 171.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <5> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 163.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 171.
 LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
-(Font)              scaled to size 4.74998pt on input line 163.
-<SlopeStdDev.png, id=88, 752.8125pt x 1304.875pt>
+(Font)              scaled to size 4.74998pt on input line 171.
+<SlopeStdDev.png, id=94, 752.8125pt x 1304.875pt>
 File: SlopeStdDev.png Graphic file (type png)
  <use SlopeStdDev.png>
-Package pdftex.def Info: SlopeStdDev.png used on input line 166.
+Package pdftex.def Info: SlopeStdDev.png used on input line 174.
 (pdftex.def)             Requested size: 97.37228pt x 168.76363pt.
 
 Excluding 'comment' comment.
 File: asl_logo_right.pdf Graphic file (type pdf)
  <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 184.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 192.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
- [9
+ [11
 
  <./SlopeStdDev.png>]
 Excluding 'comment' comment. (./presentation.aux) ) 
 Here is how much of TeX's memory you used:
- 26648 strings out of 493304
- 510766 string characters out of 6139872
- 610340 words of memory out of 5000000
- 29512 multiletter control sequences out of 15000+600000
- 59780 words of font info for 123 fonts, out of 8000000 for 9000
+ 26776 strings out of 493304
+ 513266 string characters out of 6139872
+ 612254 words of memory out of 5000000
+ 29629 multiletter control sequences out of 15000+600000
+ 59905 words of font info for 125 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  72i,16n,100p,10378b,599s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/h
 elvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr
 8a.pfb>
-Output written on presentation.pdf (9 pages, 4006619 bytes).
+Output written on presentation.pdf (11 pages, 4008379 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  39603 words of extra memory for PDF output out of 42996 (max. 10000000)
 
