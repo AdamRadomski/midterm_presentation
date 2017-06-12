@@ -105,10 +105,14 @@ Develop localization framework which can simultaneously:
 
 \ETHslide
 \section*{Approach}
-Splitting the problem into short and long term problems (FIX)
+Splitting the problem into short and long term problems
+\begin{itemize}
+	\item[\ETHitem] Short - local navigation solution
+	\item[\ETHitem] Long - solution given all data
+\end{itemize}
 
 \begin{center}
-\includegraphics[width=0.5\textwidth]{TikZ_drawings/Simple_STS_and_LTS_diagram/Simple_STS_and_LTS.pdf}\\
+\includegraphics[width=0.45\textwidth]{TikZ_drawings/Simple_STS_and_LTS_diagram/Simple_STS_and_LTS.pdf}\\
 \end{center}
 
 
@@ -120,24 +124,26 @@ Splitting the problem into short and long term problems (FIX)
 \clearpage
 
 \ETHslide
-\section*{Work done so far}
+\section*{Work done so far - STS}
 %probably split it into two slides and show what is done
-Backbone of the localization framework
+%Backbone of the localization framework
 \begin{itemize}
 	\item[\ETHitem] Short Term Smoother 
 		\begin{itemize}
 			\item building a full factor graph given sensor data
 			\item estimating position and passing data to LTS
 		\end{itemize}
-\end{itemize}		
-		
+\end{itemize}	
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{TikZ_drawings/STS/STS.pdf}\\	
+\end{center}		
 		
 		
 \clearpage
 
 \ETHslide
-\section*{Work done so far}
-Backbone of the localization framework
+\section*{Work done so far - LTS}
 \begin{itemize}		
 	\item[\ETHitem] Long Term Smoother
 		\begin{itemize}
@@ -147,10 +153,15 @@ Backbone of the localization framework
 		\end{itemize}
 \end{itemize}
 
+\begin{center}
+\includegraphics[width=0.6\textwidth]{TikZ_drawings/LTS/LTS.pdf}\\	
+\end{center}		
+
+
 \clearpage
 
 \ETHslide		
-\section*{Short and Long Term Smoother}
+\section*{Localization framework (STS and LTS)}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf}\\
 \end{center}
@@ -161,9 +172,12 @@ Backbone of the localization framework
 \section*{Current challenges}
 \begin{itemize}
 	\item[\ETHitem] Reading landmarks from the map and translating them into a factor graph
-	\item[\ETHitem] Inserting fixed landmarks into STS
+	\item[\ETHitem] Inserting "fixed" landmarks into STS
 \end{itemize}
-HERE THE LANDMARK IDEA
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{TikZ_drawings/factor_graph_small/factor_graph.pdf}\\
+\end{center}
 
 \clearpage
 
@@ -185,67 +199,9 @@ HERE THE LANDMARK IDEA
 
 \clearpage
 
-
-
-% =========== begin of the standard page ============
-
 \ETHslide
-\section*{Overview}
-\tableofcontents
-
-\clearpage
-
-\ETHslide
-\section*{Adding a video}
-\addcontentsline{toc}{section}{Adding a video}
-%Example included because it took me very long to figure it out.
-\includemedia[
-		  width=0.8\textwidth,
-		  height=0.45\textwidth,
-		  activate=pageopen,
-		  addresource=LittleDog.mp4,
-		  flashvars={source=LittleDog.mp4}
-		]{}{VPlayer.swf}\\
-		\footnotesize{LittleDog walking over rough terrain (S. Schaal, ``The latest version of the LittleDog Robot,'' 2010. https://www.youtube.com/watch?v=nUQsRPJ1dYw)}
-
-			
-\clearpage
-
-
-\ETHslide
-\section*{Adding a video - Example Slide}
-\addcontentsline{toc}{subsection}{Example Slide}
-\begin{minipage}{0.6\textwidth}
-	\begin{itemize}
-		\item[\ETHitem] Point 1
-		\item[\ETHitem] Point 2
-		\begin{itemize}
-			\item Point 1.1
-			\item Point 1.2
-		\end{itemize}
-\end{itemize}
-\end{minipage}
-\begin{minipage}{0.39\textwidth}
-	\centering
-	\includegraphics[width=0.75\textwidth]{SlopeStdDev.png}\\
-	\footnotesize{Caption}
-\end{minipage}
-
-\begin{comment}
-	Add a video file
-	
-	\includemedia[
-	 width=\textwidth,
-	 height=0.55\textwidth,
-	 activate=pageopen,
-	 addresource=Video/BigDog.mp4,
-	 flashvars={source=Video/BigDog.mp4}
-			]{}{VPlayer.swf}
-	\footnotesize{Caption}
-	
-	\end{comment}
-
-\clearpage
+\section*{Discussion}
+%Thank you for your attention
 
 \begin{comment}
 References Slide
