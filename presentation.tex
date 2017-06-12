@@ -113,25 +113,56 @@ Develop localization framework which can simultaneously:
 \includegraphics[width=0.7\textwidth]{TikZ_drawings/STS_and_LTS/STSandLTS.pdf}\\
 \end{center}
 
+% STS marginalizing old states
+% LTS storing in a map, inputting landmarks into STS and doing loop closure.
+
 %\input{./TikZ_drawings/STS_and_LTS/STSandLTS.tikz}
 
 \clearpage
 
 \ETHslide
 \section*{Work done so far}
-
+%probably split it into two slides and show what is done
+Backbone of the localization framework
+\begin{itemize}
+	\item[\ETHitem] Short Term Smoother 
+		\begin{itemize}
+			\item building a full factor graph given sensor data
+			\item estimating position and passing data to LTS
+		\end{itemize}
+	\item[\ETHitem] Long Term Smoother
+		\begin{itemize}
+		 	\item building a map with the input data	
+		 	\item "translating" the map to a factor graph
+		 	\item optimizing the factor graph and updating data in the map
+		\end{itemize}
+\end{itemize}
 
 \clearpage
 
 \ETHslide
 \section*{Current challenges}
-
-
+\begin{itemize}
+	\item[\ETHitem] Reading landmarks from the map and translating them into a factor graph
+	\item[\ETHitem] Inserting fixed landmarks into STS
+\end{itemize}
 \clearpage
 
 \ETHslide
 \section*{Future work}
-
+\begin{itemize}
+	\item[\ETHitem] 3-stage landmark initialization
+	\begin{itemize}
+		\item Stage 1: compute 3D landmark coordinate and initialize the feature as binary factor (state $x_k$ and $x_{k+1}$).
+		% what is binary factor?
+		\item Stage 2: formulate the feature re-projection factors connecting the 3D landmark state and pose.
+		\item Stage 3: once uncertainty converges marginalize landmark state and switch back to binary factor formulation.
+	\end{itemize}
+ 	\item[\ETHitem] Sliding-Window STS
+	\begin{itemize}
+		\item Reduce the STS problem to a sliding-window factor graph		
+	\end{itemize} 	
+\end{itemize}
 
 \clearpage
 
