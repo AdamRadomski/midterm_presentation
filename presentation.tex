@@ -101,17 +101,16 @@ Develop localization framework which can simultaneously:
 	\item[\ETHitem] Find optimal solution given all the measurements
 \end{itemize}
 
-\begin{center}
-\includegraphics[width=0.4\textwidth]{TikZ_drawings/Simple_STS_and_LTS_diagram/Simple_STS_and_LTS.pdf}\\
-\end{center}
-
 \clearpage
 
 \ETHslide
 \section*{Approach}
+Splitting the problem into short and long term problems (FIX)
+
 \begin{center}
-\includegraphics[width=0.7\textwidth]{TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf}\\
+\includegraphics[width=0.5\textwidth]{TikZ_drawings/Simple_STS_and_LTS_diagram/Simple_STS_and_LTS.pdf}\\
 \end{center}
+
 
 % STS marginalizing old states
 % LTS storing in a map, inputting landmarks into STS and doing loop closure.
@@ -130,6 +129,16 @@ Backbone of the localization framework
 			\item building a full factor graph given sensor data
 			\item estimating position and passing data to LTS
 		\end{itemize}
+\end{itemize}		
+		
+		
+		
+\clearpage
+
+\ETHslide
+\section*{Work done so far}
+Backbone of the localization framework
+\begin{itemize}		
 	\item[\ETHitem] Long Term Smoother
 		\begin{itemize}
 		 	\item building a map with the input data	
@@ -140,12 +149,22 @@ Backbone of the localization framework
 
 \clearpage
 
+\ETHslide		
+\section*{Short and Long Term Smoother}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf}\\
+\end{center}
+
+\clearpage
+
 \ETHslide
 \section*{Current challenges}
 \begin{itemize}
 	\item[\ETHitem] Reading landmarks from the map and translating them into a factor graph
 	\item[\ETHitem] Inserting fixed landmarks into STS
 \end{itemize}
+HERE THE LANDMARK IDEA
+
 \clearpage
 
 \ETHslide
