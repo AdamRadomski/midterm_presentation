@@ -76,7 +76,7 @@
 \colorlet{secondcolor}{ETHc} % see pages 2  and 3 of this sample presentation
 
 % === fill in first information for the presentation ==========================
-\newcommand*{\ETHtitle}{Closed-loop multi-sensor SLAM using factor graphs for fixed-wing UAV.}
+\newcommand*{\ETHtitle}{Closed-Loop Multi-Sensor SLAM for Fixed-Wing UAVs.}
 \newcommand*{\ETHauthor}{Adam Radomski}
 \newcommand*{\ETHdate}{16.06.2017}
 
@@ -101,71 +101,64 @@ Develop localization framework which can simultaneously:
 	\item[\ETHitem] Find optimal solution given all the measurements
 \end{itemize}
 
+\vspace*{2\baselineskip}
+COOL MOTIVATING PICTURE GOES HERE!
+
 \clearpage
 
 \ETHslide
 \section*{Approach}
 Splitting the problem into short and long term problems
-\begin{itemize}
-	\item[\ETHitem] Short - local navigation solution
-	\item[\ETHitem] Long - solution given all data
+
+\begin{minipage}{0.4\textwidth}
+	\begin{itemize}
+		\item[\ETHitem] \normalsize Short\\ \footnotesize local navigation solution
+		\vspace*{3\baselineskip}
+		\item[\ETHitem] \normalsize Long\\ \footnotesize solution given all data
 \end{itemize}
+\end{minipage}
+\begin{minipage}{0.59\textwidth}
+	\centering
+	\includegraphics[width=0.99\textwidth]{TikZ_drawings/Simple_STS_and_LTS_diagram_2/Simple_STS_and_LTS_2.pdf}\\
+\end{minipage}
 
-\begin{center}
-\includegraphics[width=0.45\textwidth]{TikZ_drawings/Simple_STS_and_LTS_diagram/Simple_STS_and_LTS.pdf}\\
-\end{center}
-
+\tiny <It would be a cool slide to explain the loosely-coupled approach that we aim at and could be moved to the beginning.>
+\normalsize
 
 % STS marginalizing old states
 % LTS storing in a map, inputting landmarks into STS and doing loop closure.
 
-%\input{./TikZ_drawings/STS_and_LTS/STSandLTS.tikz}
-
 \clearpage
 
 \ETHslide
-\section*{Work done so far - STS}
+\section*{Work done so far}
 %probably split it into two slides and show what is done
 %Backbone of the localization framework
-\begin{itemize}
-	\item[\ETHitem] Short Term Smoother 
-		\begin{itemize}
-			\item building a full factor graph given sensor data
-			\item estimating position and passing data to LTS
-		\end{itemize}
-\end{itemize}	
+\begin{minipage}{0.4\textwidth}
 
-\begin{center}
-\includegraphics[width=0.6\textwidth]{TikZ_drawings/STS/STS.pdf}\\	
-\end{center}		
+\footnotesize
+	 Short Term Smoother 
+		\begin{itemize}
+			\item[\ETHitem] building a full factor graph given sensor data
+			\item[\ETHitem] estimating position and passing data to LTS (?)
+		\end{itemize}
+		
+\footnotesize		
+	 Long Term Smoother
+		\begin{itemize}
+		 	\item[\ETHitem] building a map with the input data	
+		 	\item[\ETHitem] "translating" the map to a factor graph
+		 	\item[\ETHitem] optimizing the factor graph and updating data in the map
+		\end{itemize}
+\end{minipage}
+\hspace{0.2cm}
+\begin{minipage}{0.59\textwidth}
+	\centering
+	\includegraphics[width=0.99\textwidth]{TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf}\\
+\end{minipage}
+
 		
 		
-\clearpage
-
-\ETHslide
-\section*{Work done so far - LTS}
-\begin{itemize}		
-	\item[\ETHitem] Long Term Smoother
-		\begin{itemize}
-		 	\item building a map with the input data	
-		 	\item "translating" the map to a factor graph
-		 	\item optimizing the factor graph and updating data in the map
-		\end{itemize}
-\end{itemize}
-
-\begin{center}
-\includegraphics[width=0.6\textwidth]{TikZ_drawings/LTS/LTS.pdf}\\	
-\end{center}		
-
-
-\clearpage
-
-\ETHslide		
-\section*{Localization framework (STS and LTS)}
-\begin{center}
-\includegraphics[width=0.7\textwidth]{TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf}\\
-\end{center}
-
 \clearpage
 
 \ETHslide
@@ -199,9 +192,7 @@ Splitting the problem into short and long term problems
 
 \clearpage
 
-\ETHslide
-\section*{Discussion}
-%Thank you for your attention
+
 
 \begin{comment}
 References Slide
