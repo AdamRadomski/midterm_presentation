@@ -100,9 +100,10 @@ Develop localization framework which can simultaneously:
 	\item[\ETHitem] Estimate local navigation solution with minimal latency
 	\item[\ETHitem] Find optimal solution given all the measurements
 \end{itemize}
-
-\vspace*{2\baselineskip}
 COOL MOTIVATING PICTURE GOES HERE!
+\begin{center}
+\includegraphics[width=0.3\textwidth]{pictures/cartoon-plane.jpg}\\
+\end{center}
 
 \clearpage
 
@@ -140,15 +141,16 @@ Splitting the problem into short and long term problems
 	 Short Term Smoother 
 		\begin{itemize}
 			\item[\ETHitem] building a full factor graph given sensor data
-			\item[\ETHitem] estimating position and passing data to LTS (?)
+			\item[\ETHitem] localization 
+			\item[\ETHitem] passing data to LTS
 		\end{itemize}
 		
 \footnotesize		
 	 Long Term Smoother
 		\begin{itemize}
-		 	\item[\ETHitem] building a map with the input data	
-		 	\item[\ETHitem] "translating" the map to a factor graph
-		 	\item[\ETHitem] optimizing the factor graph and updating data in the map
+		 	\item[\ETHitem] building a map
+		 	\item[\ETHitem] building a full factor graph based on the map
+		 	\item[\ETHitem] localization
 		\end{itemize}
 \end{minipage}
 \hspace{0.2cm}
@@ -162,10 +164,11 @@ Splitting the problem into short and long term problems
 \clearpage
 
 \ETHslide
-\section*{Current challenges}
+\section*{Current status}
 \begin{itemize}
-	\item[\ETHitem] Reading landmarks from the map and translating them into a factor graph
-	\item[\ETHitem] Inserting "fixed" landmarks into STS
+	\item[\ETHitem] Optimization of the factor graph
+	\item[\ETHitem] Keeping map and factor graph updated
+	\item[\ETHitem] Inserting fixed landmark positions to STS
 \end{itemize}
 
 \begin{center}
@@ -175,19 +178,18 @@ Splitting the problem into short and long term problems
 \clearpage
 
 \ETHslide
-\section*{Future work}
+\section*{Next steps}
 \begin{itemize}
 	\item[\ETHitem] 3-stage landmark initialization
-	\begin{itemize}
-		\item Stage 1: compute 3D landmark coordinate and initialize the feature as binary factor (state $x_k$ and $x_{k+1}$).
-		% what is binary factor?
-		\item Stage 2: formulate the feature re-projection factors connecting the 3D landmark state and pose.
-		\item Stage 3: once uncertainty converges marginalize landmark state and switch back to binary factor formulation.
-	\end{itemize}
+	\begin{center}
+	\includegraphics[width=0.6\textwidth]{pictures/3stageLandmark.png}\\
+	\footnotesize{??? HOW TO REFERENCE ???}
+	\end{center}
  	\item[\ETHitem] Sliding-Window STS
 	\begin{itemize}
-		\item Reduce the STS problem to a sliding-window factor graph		
-	\end{itemize} 	
+		\item Marginalize old factors	
+	\end{itemize} 
+	\item[\ETHitem] Loop closure	
 \end{itemize}
 
 \clearpage

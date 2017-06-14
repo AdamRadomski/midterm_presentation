@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.8)  13 JUN 2017 19:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.8)  14 JUN 2017 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1464,72 +1464,73 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 97.
+
+<pictures/cartoon-plane.jpg, id=53, 313.17pt x 334.851pt>
+File: pictures/cartoon-plane.jpg Graphic file (type jpg)
+
+<use pictures/cartoon-plane.jpg>
+Package pdftex.def Info: pictures/cartoon-plane.jpg used on input line 105.
+(pdftex.def)             Requested size: 99.8702pt x 106.78151pt.
 File: asl_logo_right.pdf Graphic file (type pdf)
  <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 107.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 108.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
- [2]
+ [2 <./pictures/cartoon-plane.jpg>]
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
-
-<use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 109.
+ <use eth_logo_kurz_neg_13.pdf>
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 110.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 115.
+(Font)              scaled to size 8.54997pt on input line 116.
 
-<TikZ_drawings/Simple_STS_and_LTS_diagram_2/Simple_STS_and_LTS_2.pdf, id=56, 34
+<TikZ_drawings/Simple_STS_and_LTS_diagram_2/Simple_STS_and_LTS_2.pdf, id=57, 34
 9.72757pt x 292.82198pt>
 File: TikZ_drawings/Simple_STS_and_LTS_diagram_2/Simple_STS_and_LTS_2.pdf Graph
 ic file (type pdf)
 
 <use TikZ_drawings/Simple_STS_and_LTS_diagram_2/Simple_STS_and_LTS_2.pdf>
 Package pdftex.def Info: TikZ_drawings/Simple_STS_and_LTS_diagram_2/Simple_STS_
-and_LTS_2.pdf used on input line 122.
+and_LTS_2.pdf used on input line 123.
 (pdftex.def)             Requested size: 194.44514pt x 162.80853pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 125.
+(Font)              scaled to size 5.69998pt on input line 126.
 File: asl_logo_right.pdf Graphic file (type pdf)
 
 <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 131.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 132.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
  [3
 
  <./TikZ_drawings/Simple_STS_and_LTS_diagram_2/Simple_STS_and_LTS_2.pdf>]
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
  <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 133.
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 134.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-
-Underfull \hbox (badness 1038) in paragraph at lines 151--152
-\T1/phv/m/n/9 (+20) and up-dat-ing data in the
- []
-
-<TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf, id=122, 382.3605pt x 292.82198pt>
+<TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf, id=123, 382.3605pt x 292.82198pt>
 File: TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf Graphic file (type pdf)
 
 <use TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf>
 Package pdftex.def Info: TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf used on inpu
-t line 157.
+t line 159.
 (pdftex.def)             Requested size: 194.44514pt x 148.90828pt.
 
-Overfull \hbox (6.76883pt too wide) in paragraph at lines 137--159
+Overfull \hbox (6.76883pt too wide) in paragraph at lines 138--161
 []$[]$   $[]$ 
  []
 
 File: asl_logo_right.pdf Graphic file (type pdf)
 <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 162.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 164.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
  [4
 
@@ -1537,72 +1538,77 @@ Package pdftex.def Info: asl_logo_right.pdf used on input line 162.
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
 
 <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 164.
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 166.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
 
-<TikZ_drawings/factor_graph_small/factor_graph.pdf, id=187, 376.9804pt x 243.25
+<TikZ_drawings/factor_graph_small/factor_graph.pdf, id=188, 376.9804pt x 243.25
 179pt>
 File: TikZ_drawings/factor_graph_small/factor_graph.pdf Graphic file (type pdf)
 
  <use TikZ_drawings/factor_graph_small/factor_graph.pdf>
 Package pdftex.def Info: TikZ_drawings/factor_graph_small/factor_graph.pdf used
- on input line 172.
+ on input line 175.
 (pdftex.def)             Requested size: 199.74039pt x 128.88571pt.
 File: asl_logo_right.pdf Graphic file (type pdf)
 
 <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 175.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 178.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
  [5
 
  <./TikZ_drawings/factor_graph_small/factor_graph.pdf>]
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
  <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 177.
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 180.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
+<pictures/3stageLandmark.png, id=238, 558.085pt x 166.6225pt>
+File: pictures/3stageLandmark.png Graphic file (type png)
+
+<use pictures/3stageLandmark.png>
+Package pdftex.def Info: pictures/3stageLandmark.png used on input line 185.
+(pdftex.def)             Requested size: 199.74039pt x 59.6332pt.
 File: asl_logo_right.pdf Graphic file (type pdf)
-<use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 193.
+ <use asl_logo_right.pdf>
+Package pdftex.def Info: asl_logo_right.pdf used on input line 195.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
  [6
 
-] Excluding 'comment' comment. (./presentation.aux) ) 
+ <./pictures/3stageLandmark.png>] Excluding 'comment' comment. (./presentation.
+aux) ) 
 Here is how much of TeX's memory you used:
- 26574 strings out of 493304
- 509255 string characters out of 6139872
- 612204 words of memory out of 5000000
- 29434 multiletter control sequences out of 15000+600000
- 55779 words of font info for 112 fonts, out of 8000000 for 9000
+ 26572 strings out of 493304
+ 509439 string characters out of 6139872
+ 613204 words of memory out of 5000000
+ 29443 multiletter control sequences out of 15000+600000
+ 51563 words of font info for 101 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  72i,15n,100p,10378b,599s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
-vetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8
-a.pfb>
-Output written on presentation.pdf (6 pages, 2416988 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on presentation.pdf (6 pages, 2562920 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
+ 261 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 33425 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 31387 words of extra memory for PDF output out of 35830 (max. 10000000)
 
