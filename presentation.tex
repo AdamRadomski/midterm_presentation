@@ -100,9 +100,9 @@ Develop localization framework which can simultaneously:
 	\item[\ETHitem] Estimate local navigation solution with minimal latency
 	\item[\ETHitem] Find optimal solution given all the measurements
 \end{itemize}
-COOL MOTIVATING PICTURE GOES HERE!
 \begin{center}
-\includegraphics[width=0.3\textwidth]{pictures/cartoon-plane.jpg}\\
+\includegraphics[width=0.6\textheight]{pictures/simulation.png}\\
+\tiny Trajectory estimated on a replayed test data.
 \end{center}
 
 \clearpage
@@ -111,32 +111,23 @@ COOL MOTIVATING PICTURE GOES HERE!
 \section*{Approach}
 Splitting the problem into short and long term problems
 
-\begin{minipage}{0.4\textwidth}
+\begin{minipage}{0.35\textwidth}
 	\begin{itemize}
 		\item[\ETHitem] \normalsize Short\\ \footnotesize local navigation solution
 		\vspace*{3\baselineskip}
-		\item[\ETHitem] \normalsize Long\\ \footnotesize solution given all data
+		\item[\ETHitem] \normalsize Long\\ \footnotesize solution given all data, loop closure
 \end{itemize}
 \end{minipage}
-\begin{minipage}{0.59\textwidth}
+\begin{minipage}{0.64\textwidth}
 	\centering
 	\includegraphics[width=0.99\textwidth]{TikZ_drawings/Simple_STS_and_LTS_diagram_2/Simple_STS_and_LTS_2.pdf}\\
 \end{minipage}
-
-\tiny <It would be a cool slide to explain the loosely-coupled approach that we aim at and could be moved to the beginning.>
-\normalsize
-
-% STS marginalizing old states
-% LTS storing in a map, inputting landmarks into STS and doing loop closure.
 
 \clearpage
 
 \ETHslide
 \section*{Work done so far}
-%probably split it into two slides and show what is done
-%Backbone of the localization framework
 \begin{minipage}{0.4\textwidth}
-
 \footnotesize
 	 Short Term Smoother 
 		\begin{itemize}
@@ -183,15 +174,19 @@ Splitting the problem into short and long term problems
 	\item[\ETHitem] 3-stage landmark initialization
 	\begin{center}
 	\includegraphics[width=0.6\textwidth]{pictures/3stageLandmark.png}\\
-	\footnotesize{??? HOW TO REFERENCE ???}
+	\tiny{Image from [1].}
 	\end{center}
  	\item[\ETHitem] Sliding-Window STS
 	\begin{itemize}
 		\item Marginalize old factors	
 	\end{itemize} 
 	\item[\ETHitem] Loop closure	
+	\item[\ETHitem] Tests on UAV
 \end{itemize}
 
+\vspace*{1\baselineskip}
+
+\tiny{[1] H.-P. Chiu, S. Williams, F. Dellaert, S. Samarasekera, R. Kumar (2013). Robust vision-aided\ navigation using sliding-window factor graphs. In IEEE International Conference on Robotics and Automation (pp. 46-53)}
 \clearpage
 
 

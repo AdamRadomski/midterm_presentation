@@ -27,9 +27,9 @@
 % Draw data flow
 \draw [thick, ->] ($(BRDF) + (0,1.5)$) -- ($(TLSTS) - (0,1.5)$) node [above left] {Vision};
 \draw [thick, ->] ($(BRDF) + (0,1)$) -- ($(TLSTS) - (0,2)$) node [above left] {IMU};
-\draw [thick, ->] ($(BRDF) + (0,0.5)$) -- ($(TLSTS) - (0,2.5)$) node [above left] {GPS};
-\draw [thick, ->] ($(BRDF) + (0,0.5)$) -- ($(BRDF) + (1,0.5)$)
-  -- ($(BRDF) + (1,-5)$) --  ($(TLLTS) - (0,2)$)  node [above left] {GPS};
+\draw [thick, ->] ($(BRDF) + (0,0.5)$) -- ($(TLSTS) - (0,2.5)$) node [above left] {Sensors};
+\draw [thick, ->] ($(BRDF) + (0,0.5)$) -- ($(BRDF) + (0.5,0.5)$)
+  -- ($(BRDF) + (0.5,-5)$) --  ($(TLLTS) - (0,2)$)  node [above left] {Sensors};
 
 \draw [thick, ->] ($(TLSTS)+(1,-4)$) -- ($(TLLTS)+(1,0)$);
 \draw [thick, ->] ($(TLSTS)+(1.5,-4)$) -- ($(TLLTS)+(1.5,0)$);
@@ -66,7 +66,7 @@
 
 \node at (5.5,7.75) {Map};
 
-\node at (7.5,8) {Translator};
+\node at (7.5,8) {\small Translator};
 \end{tikzpicture}
 
 

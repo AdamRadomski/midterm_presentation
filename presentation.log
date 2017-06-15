@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.8)  14 JUN 2017 11:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.6.8)  15 JUN 2017 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1465,17 +1465,19 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 97.
 
-<pictures/cartoon-plane.jpg, id=53, 313.17pt x 334.851pt>
-File: pictures/cartoon-plane.jpg Graphic file (type jpg)
+<pictures/simulation.png, id=53, 787.94376pt x 543.02875pt>
+File: pictures/simulation.png Graphic file (type png)
 
-<use pictures/cartoon-plane.jpg>
-Package pdftex.def Info: pictures/cartoon-plane.jpg used on input line 105.
-(pdftex.def)             Requested size: 99.8702pt x 106.78151pt.
+<use pictures/simulation.png>
+Package pdftex.def Info: pictures/simulation.png used on input line 104.
+(pdftex.def)             Requested size: 144.29994pt x 99.44785pt.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 105.
 File: asl_logo_right.pdf Graphic file (type pdf)
  <use asl_logo_right.pdf>
 Package pdftex.def Info: asl_logo_right.pdf used on input line 108.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
- [2 <./pictures/cartoon-plane.jpg>]
+ [2 <./pictures/simulation.png>]
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
  <use eth_logo_kurz_neg_13.pdf>
 Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 110.
@@ -1496,23 +1498,21 @@ ic file (type pdf)
 <use TikZ_drawings/Simple_STS_and_LTS_diagram_2/Simple_STS_and_LTS_2.pdf>
 Package pdftex.def Info: TikZ_drawings/Simple_STS_and_LTS_diagram_2/Simple_STS_
 and_LTS_2.pdf used on input line 123.
-(pdftex.def)             Requested size: 194.44514pt x 162.80853pt.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 126.
+(pdftex.def)             Requested size: 210.92465pt x 176.60602pt.
 File: asl_logo_right.pdf Graphic file (type pdf)
 
 <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 132.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 126.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
  [3
 
  <./TikZ_drawings/Simple_STS_and_LTS_diagram_2/Simple_STS_and_LTS_2.pdf>]
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
  <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 134.
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 128.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
@@ -1521,16 +1521,16 @@ File: TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf Graphic file (type pdf)
 
 <use TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf>
 Package pdftex.def Info: TikZ_drawings/STS_and_LTS/STS_and_LTS.pdf used on inpu
-t line 159.
+t line 150.
 (pdftex.def)             Requested size: 194.44514pt x 148.90828pt.
 
-Overfull \hbox (6.76883pt too wide) in paragraph at lines 138--161
+Overfull \hbox (6.76883pt too wide) in paragraph at lines 130--152
 []$[]$   $[]$ 
  []
 
 File: asl_logo_right.pdf Graphic file (type pdf)
 <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 164.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 155.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
  [4
 
@@ -1538,36 +1538,36 @@ Package pdftex.def Info: asl_logo_right.pdf used on input line 164.
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
 
 <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 166.
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 157.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-<TikZ_drawings/factor_graph_small/factor_graph.pdf, id=188, 376.9804pt x 243.25
-179pt>
+<TikZ_drawings/factor_graph_small/factor_graph.pdf, id=193, 377.16708pt x 243.2
+5179pt>
 File: TikZ_drawings/factor_graph_small/factor_graph.pdf Graphic file (type pdf)
 
  <use TikZ_drawings/factor_graph_small/factor_graph.pdf>
 Package pdftex.def Info: TikZ_drawings/factor_graph_small/factor_graph.pdf used
- on input line 175.
-(pdftex.def)             Requested size: 199.74039pt x 128.88571pt.
+ on input line 166.
+(pdftex.def)             Requested size: 199.74039pt x 128.82262pt.
 File: asl_logo_right.pdf Graphic file (type pdf)
 
 <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 178.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 169.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
  [5
 
  <./TikZ_drawings/factor_graph_small/factor_graph.pdf>]
 File: eth_logo_kurz_neg_13.pdf Graphic file (type pdf)
  <use eth_logo_kurz_neg_13.pdf>
-Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 180.
+Package pdftex.def Info: eth_logo_kurz_neg_13.pdf used on input line 171.
 (pdftex.def)             Requested size: 36.41953pt x 5.91705pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
@@ -1575,22 +1575,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--181
 File: pictures/3stageLandmark.png Graphic file (type png)
 
 <use pictures/3stageLandmark.png>
-Package pdftex.def Info: pictures/3stageLandmark.png used on input line 185.
+Package pdftex.def Info: pictures/3stageLandmark.png used on input line 176.
 (pdftex.def)             Requested size: 199.74039pt x 59.6332pt.
 File: asl_logo_right.pdf Graphic file (type pdf)
  <use asl_logo_right.pdf>
-Package pdftex.def Info: asl_logo_right.pdf used on input line 195.
+Package pdftex.def Info: asl_logo_right.pdf used on input line 190.
 (pdftex.def)             Requested size: 68.2866pt x 11.09546pt.
  [6
 
  <./pictures/3stageLandmark.png>] Excluding 'comment' comment. (./presentation.
 aux) ) 
 Here is how much of TeX's memory you used:
- 26572 strings out of 493304
- 509439 string characters out of 6139872
+ 26575 strings out of 493304
+ 509451 string characters out of 6139872
  613204 words of memory out of 5000000
  29443 multiletter control sequences out of 15000+600000
- 51563 words of font info for 101 fonts, out of 8000000 for 9000
+ 51688 words of font info for 103 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  72i,15n,100p,10378b,599s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/te
@@ -1601,11 +1601,11 @@ ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on presentation.pdf (6 pages, 2562920 bytes).
+mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on presentation.pdf (6 pages, 3399816 bytes).
 PDF statistics:
  261 PDF objects out of 1000 (max. 8388607)
  183 compressed objects within 2 object streams
